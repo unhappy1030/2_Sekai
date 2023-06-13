@@ -26,6 +26,15 @@ regions:
         owners: {}
         type: cuboid
         priority: 0
+    wingshop:
+        min: {x: 81, y: 126, z: -65}
+        max: {x: 95, y: 128, z: -60}
+        members: {}
+        flags: {creeper-explosion: deny, lava-fire: deny, build: deny, tnt: deny,
+            firework-damage: deny}
+        owners: {}
+        type: cuboid
+        priority: 0
     st_2:
         min: {x: 166, y: 67, z: 40}
         max: {x: 218, y: 68, z: 52}

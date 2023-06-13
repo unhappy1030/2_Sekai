@@ -37,7 +37,7 @@ Global:
     # Applies to: Both
     brew: true
     # Applies to: Both
-    build: false
+    build: true
     # Applies to: Residence
     burn: true
     # Applies to: Both
@@ -229,7 +229,7 @@ Global:
     # Applies to: Residence
     trample: true
     # Applies to: Both
-    use: false
+    use: true
     # Applies to: Both
     vehicledestroy: false
     # Applies to: Residence

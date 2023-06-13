@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 25.49.77.137
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1686666491192
+  login: 1686666454482
+money: '328.0'
+last-account-name: wndhks123
+lastlocation:
+  world: 5f49d87f-f443-4d4a-94bf-89e5b6936ab8
+  world-name: world
+  x: 85.7195991465479
+  y: 102.41666519183372
+  z: -59.62735843507357
+  yaw: -114.10064697265625
+  pitch: 53.06580352783203
+logoutlocation:
+  world: 5f49d87f-f443-4d4a-94bf-89e5b6936ab8
+  world-name: world
+  x: -13.93502690415694
+  y: 66.0
+  z: 337.44484928096045
+  yaw: 127.1034927368164
+  pitch: 12.693033218383789

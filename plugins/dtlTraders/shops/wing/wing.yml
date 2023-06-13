@@ -22,6 +22,7 @@ wing:
             v: 3337
             type: ELYTRA
           show-lore: true
+          display-lore: []
           show-description: true
           description: []
           Discount:
@@ -36,7 +37,7 @@ wing:
             show-discount-end: false
             discount-end: 11/06/2023 17:12:51
           show-price: true
-          trade-price: 35000.0
+          trade-price: 50000.0
           custom-input-enabled: false
           stack-sale-enabled: false
           show-trade-limit: false

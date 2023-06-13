@@ -37,7 +37,7 @@ marin:
             show-discount-end: false
             discount-end: 09/06/2023 16:20:36
           show-price: true
-          trade-price: 45.0
+          trade-price: 30.0
           custom-input-enabled: true
           stack-sale-enabled: false
           show-trade-limit: false
@@ -47,7 +47,7 @@ marin:
           show-broadcast-message: false
           broadcast-message: ''
           drop-item-on-full-inventory: false
-          sell-all-when-not-enough-items: true
+          sell-all-when-not-enough-items: false
           custom-display-text-enabled: false
           custom-display-text: []
           permission: ''

@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 25.37.158.214
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1686659789347
+  login: 1686652217999
+money: '57.0'
+last-account-name: Dwnn0525
+lastlocation:
+  world: 5f49d87f-f443-4d4a-94bf-89e5b6936ab8
+  world-name: world
+  x: 83.62898005179618
+  y: 53.677644599518366
+  z: -64.41171033747483
+  yaw: -178.84857177734375
+  pitch: -2.081875801086426
+logoutlocation:
+  world: 5f49d87f-f443-4d4a-94bf-89e5b6936ab8
+  world-name: world
+  x: 279.83237252504114
+  y: 67.0
+  z: 62.437364914684395
+  yaw: -98.603515625
+  pitch: -0.041095755994319916

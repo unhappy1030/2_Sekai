@@ -1,3 +1,113 @@
 Version: 1
 Seed: 28540555692007970
-Residences: {}
+Messages:
+  1:
+    LeaveMessage: Now leaving %residence.
+    EnterMessage: Welcome %player to %residence, owned by %owner.
+Flags:
+  1:
+    container: true
+    ignite: true
+    move: true
+    harvest: true
+    shear: true
+    use: true
+    destroy: true
+    animalkilling: true
+    trade: true
+    mobkilling: true
+    build: true
+    vehicledestroy: true
+    leash: true
+  2:
+    container: false
+    ignite: false
+    harvest: false
+    shear: false
+    firespread: false
+    use: false
+    destroy: false
+    pvp: false
+    animalkilling: false
+    hook: false
+    build: false
+    explode: false
+    vehicledestroy: false
+    tnt: false
+    leash: false
+    pistonprotection: true
+    tp: false
+    creeper: false
+  3:
+    container: false
+    ignite: false
+    door: false
+    harvest: false
+    shear: false
+    firespread: false
+    use: false
+    destroy: false
+    pvp: false
+    animalkilling: false
+    hook: false
+    build: false
+    explode: false
+    vehicledestroy: false
+    tnt: false
+    leash: false
+    pistonprotection: true
+    tp: false
+    creeper: false
+  4:
+    container: false
+    ignite: false
+    harvest: false
+    shear: false
+    firespread: false
+    use: true
+    destroy: false
+    pvp: false
+    animalkilling: false
+    hook: false
+    build: false
+    explode: false
+    vehicledestroy: false
+    tnt: false
+    leash: false
+    pistonprotection: true
+    tp: false
+    creeper: false
+Residences:
+  home:
+    TPLoc: 106.5:65.0:30.5:0.0:0.0
+    BlockSellPrice: 45.0
+    Permissions:
+      PlayerFlags:
+        f95ed63e-e861-46df-abef-527c91f45a78: 1
+      AreaFlags: 2
+      OwnerUUID: f95ed63e-e861-46df-abef-527c91f45a78
+      OwnerLastKnownName: Two_Letter
+    CreatedOn: 1686659112553
+    Areas:
+      main: 105:65:29:107:67:31
+  house:
+    BlockSellPrice: 45.0
+    Permissions:
+      PlayerFlags:
+        2d5a2430-46d1-456e-8147-802d08bb1f9d: 1
+      AreaFlags: 3
+      OwnerUUID: 2d5a2430-46d1-456e-8147-802d08bb1f9d
+      OwnerLastKnownName: Dwnn0525
+    CreatedOn: 1686658683954
+    Areas:
+      main: 281:67:61:283:69:63
+  test:
+    Permissions:
+      PlayerFlags:
+        13b316a2-cb44-4e24-8800-211a6a10ed22: 1
+      AreaFlags: 4
+      OwnerUUID: 13b316a2-cb44-4e24-8800-211a6a10ed22
+      OwnerLastKnownName: Ri_MU_L
+    CreatedOn: 1686659315159
+    Areas:
+      main: 278:67:72:281:70:75

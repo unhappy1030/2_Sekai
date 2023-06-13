@@ -37,7 +37,7 @@ fisher:
             show-discount-end: false
             discount-end: 09/06/2023 17:29:53
           show-price: true
-          trade-price: 2.5
+          trade-price: 3.5
           custom-input-enabled: true
           stack-sale-enabled: false
           show-trade-limit: false
@@ -76,7 +76,7 @@ fisher:
             show-discount-end: false
             discount-end: 09/06/2023 17:30:23
           show-price: true
-          trade-price: 2.5
+          trade-price: 3.5
           custom-input-enabled: true
           stack-sale-enabled: false
           show-trade-limit: false
@@ -115,7 +115,7 @@ fisher:
             show-discount-end: false
             discount-end: 09/06/2023 17:30:37
           show-price: true
-          trade-price: 5.0
+          trade-price: 6.0
           custom-input-enabled: true
           stack-sale-enabled: false
           show-trade-limit: false
@@ -154,7 +154,7 @@ fisher:
             show-discount-end: false
             discount-end: 09/06/2023 17:30:50
           show-price: true
-          trade-price: 4.0
+          trade-price: 5.0
           custom-input-enabled: true
           stack-sale-enabled: false
           show-trade-limit: false
@@ -193,7 +193,7 @@ fisher:
             show-discount-end: false
             discount-end: 09/06/2023 17:31:11
           show-price: true
-          trade-price: 3.0
+          trade-price: 4.0
           custom-input-enabled: true
           stack-sale-enabled: false
           show-trade-limit: false
@@ -232,7 +232,7 @@ fisher:
             show-discount-end: false
             discount-end: 09/06/2023 17:31:41
           show-price: true
-          trade-price: 3.0
+          trade-price: 4.0
           custom-input-enabled: true
           stack-sale-enabled: false
           show-trade-limit: false

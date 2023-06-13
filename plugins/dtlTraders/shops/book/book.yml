@@ -27,6 +27,7 @@ book:
               stored-enchants:
                 MENDING: 1
           show-lore: true
+          display-lore: []
           show-description: true
           description: []
           Discount:
@@ -41,7 +42,7 @@ book:
             show-discount-end: false
             discount-end: 11/06/2023 17:31:07
           show-price: true
-          trade-price: 30000.0
+          trade-price: 40000.0
           custom-input-enabled: false
           stack-sale-enabled: false
           show-trade-limit: false
