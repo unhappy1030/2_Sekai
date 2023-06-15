@@ -64,10 +64,11 @@ Flags:
     harvest: false
     shear: false
     firespread: false
-    use: true
+    use: false
     destroy: false
     pvp: false
     animalkilling: false
+    lavaflow: false
     hook: false
     build: false
     explode: false
@@ -78,6 +79,18 @@ Flags:
     tp: false
     creeper: false
 Residences:
+  cow:
+    TPLoc: -970.5:69.0:593.5:0.0:0.0
+    BlockSellPrice: 45.0
+    Permissions:
+      PlayerFlags:
+        f95ed63e-e861-46df-abef-527c91f45a78: 1
+      AreaFlags: 2
+      OwnerUUID: f95ed63e-e861-46df-abef-527c91f45a78
+      OwnerLastKnownName: Two_Letter
+    CreatedOn: 1686741396403
+    Areas:
+      main: -972:69:592:-970:71:594
   home:
     TPLoc: 106.5:65.0:30.5:0.0:0.0
     BlockSellPrice: 45.0
@@ -91,6 +104,7 @@ Residences:
     Areas:
       main: 105:65:29:107:67:31
   house:
+    TPLoc: 283.5:68.1:64.5:0.0:0.0
     BlockSellPrice: 45.0
     Permissions:
       PlayerFlags:
@@ -101,13 +115,15 @@ Residences:
     CreatedOn: 1686658683954
     Areas:
       main: 281:67:61:283:69:63
-  test:
+  my_home:
+    TPLoc: 189.5:70.0:67.5:0.0:0.0
+    BlockSellPrice: 45.0
     Permissions:
       PlayerFlags:
         13b316a2-cb44-4e24-8800-211a6a10ed22: 1
       AreaFlags: 4
       OwnerUUID: 13b316a2-cb44-4e24-8800-211a6a10ed22
       OwnerLastKnownName: Ri_MU_L
-    CreatedOn: 1686659315159
+    CreatedOn: 1686727242791
     Areas:
-      main: 278:67:72:281:70:75
+      main: 188:68:65:190:71:68

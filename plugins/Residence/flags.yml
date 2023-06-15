@@ -57,15 +57,15 @@ Global:
     # Applies to: Both
     commandblock: false
     # Applies to: Both
-    container: false
+    container: true
     # Applies to: Residence
     coords: true
     # Applies to: Residence
     craft: true
     # Applies to: Residence
-    creeper: false
+    creeper: true
     # Applies to: Residence
-    damage: false
+    damage: true
     # Applies to: Residence
     day: true
     # Applies to: Residence
@@ -89,7 +89,7 @@ Global:
     # Applies to: Both
     enderpearl: true
     # Applies to: Residence
-    explode: false
+    explode: true
     # Applies to: Residence
     falldamage: true
     # Applies to: Residence
@@ -99,7 +99,7 @@ Global:
     # Applies to: Residence
     fireball: true
     # Applies to: Residence
-    firespread: false
+    firespread: true
     # Applies to: Residence
     flow: true
     # Applies to: Both
@@ -189,7 +189,7 @@ Global:
     # Applies to: Both
     pressure: true
     # Applies to: Residence
-    pvp: false
+    pvp: true
     # Applies to: Residence
     rain: true
     # Applies to: Residence
@@ -221,7 +221,7 @@ Global:
     # Applies to: Residence
     title: true
     # Applies to: Residence
-    tnt: false
+    tnt: true
     # Applies to: Both
     tp: true
     # Applies to: Both

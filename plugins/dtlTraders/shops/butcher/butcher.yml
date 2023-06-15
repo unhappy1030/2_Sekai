@@ -404,3 +404,198 @@ butcher:
           permission: ''
           logging-enabled: false
           close-after-purchase: false
+        item-18:
+          id: 128
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: ROTTEN_FLESH
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 14/06/2023 22:17:59
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 14/06/2023 22:17:59
+          show-price: true
+          trade-price: 1.0
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-19:
+          id: 129
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: SPIDER_EYE
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 14/06/2023 22:18:11
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 14/06/2023 22:18:11
+          show-price: true
+          trade-price: 1.5
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-20:
+          id: 130
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: LEATHER
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 14/06/2023 22:18:26
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 14/06/2023 22:18:26
+          show-price: true
+          trade-price: 2.0
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-21:
+          id: 131
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: FEATHER
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 14/06/2023 22:18:44
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 14/06/2023 22:18:44
+          show-price: true
+          trade-price: 1.5
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-22:
+          id: 133
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: PHANTOM_MEMBRANE
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 14/06/2023 22:20:16
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 14/06/2023 22:20:16
+          show-price: true
+          trade-price: 5.0
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false

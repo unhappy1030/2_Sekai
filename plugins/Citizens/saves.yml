@@ -11,13 +11,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 62.07585
+        bodyYaw: 28.318413
         world: world
         x: '197.8261'
         y: '74.5'
         z: '30.5066'
-        yaw: '62.0759'
-        pitch: '5.8372'
+        yaw: '28.3184'
+        pitch: '6.295'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -55,7 +55,7 @@ npc:
         offhand:
           type_key: netherite_hoe
           amount: 1
-    traitnames: owner,type,mounttrait,spawned,trader,skintrait,scoreboardtrait,equipment,inventory,lookclose,rotationtrait,location
+    traitnames: type,mounttrait,lookclose,inventory,spawned,scoreboardtrait,trader,skintrait,rotationtrait,location,equipment,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -69,13 +69,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -51.418427
+        bodyYaw: -71.18789
         world: world
         x: '180.4721'
         y: '74.5'
         z: '31.3416'
-        yaw: '-51.4184'
-        pitch: '5.8639'
+        yaw: '-71.1879'
+        pitch: '0.0565'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -113,7 +113,7 @@ npc:
         offhand:
           type_key: netherite_pickaxe
           amount: 1
-    traitnames: owner,type,mounttrait,trader,spawned,skintrait,scoreboardtrait,equipment,inventory,lookclose,rotationtrait,location
+    traitnames: type,mounttrait,lookclose,inventory,spawned,scoreboardtrait,trader,skintrait,rotationtrait,location,equipment,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -126,13 +126,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: 39.038895
+        bodyYaw: -63.42203
         world: world
         x: '191.0697'
         y: '74.5'
         z: '30.1052'
-        yaw: '39.0389'
-        pitch: '5.828'
+        yaw: '-63.422'
+        pitch: '-6.1715'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -170,7 +170,7 @@ npc:
         hand:
           type_key: spyglass
           amount: 1
-    traitnames: owner,type,mounttrait,spawned,trader,skintrait,scoreboardtrait,inventory,equipment,lookclose,rotationtrait,location
+    traitnames: type,mounttrait,lookclose,inventory,spawned,scoreboardtrait,trader,skintrait,rotationtrait,location,equipment,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -184,13 +184,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -151.55429
+        bodyYaw: -139.89795
         world: world
         x: '178.538'
         y: '74.5'
         z: '38.8222'
-        yaw: '-151.5543'
-        pitch: '6.962'
+        yaw: '-139.8979'
+        pitch: '5.8515'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -234,7 +234,7 @@ npc:
         offhand:
           type_key: fishing_rod
           amount: 1
-    traitnames: owner,type,mounttrait,spawned,trader,skintrait,scoreboardtrait,equipment,inventory,lookclose,rotationtrait,location
+    traitnames: type,mounttrait,lookclose,inventory,spawned,scoreboardtrait,trader,skintrait,rotationtrait,location,equipment,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -248,13 +248,13 @@ npc:
     traits:
       type: PLAYER
       location:
-        bodyYaw: -134.37894
+        bodyYaw: -116.473816
         world: world
         x: '178.6282'
         y: '74.5'
         z: '36.3759'
-        yaw: '-134.3789'
-        pitch: '6.4861'
+        yaw: '-116.4738'
+        pitch: '0.9589'
       spawned: true
       skintrait:
         fetchDefaultSkin: true
@@ -298,7 +298,7 @@ npc:
         offhand:
           type_key: netherite_axe
           amount: 1
-    traitnames: owner,type,mounttrait,spawned,trader,skintrait,scoreboardtrait,equipment,inventory,lookclose,rotationtrait,location
+    traitnames: type,mounttrait,lookclose,inventory,spawned,scoreboardtrait,trader,skintrait,rotationtrait,location,equipment,owner
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -320,13 +320,13 @@ npc:
       trader:
         guiName: book
       location:
-        bodyYaw: 95.46225
+        bodyYaw: 104.319244
         world: world
         x: '201.7'
         y: '65.0'
         z: '29.4428'
-        yaw: '101.4044'
-        pitch: '13.6544'
+        yaw: '102.3816'
+        pitch: '13.5793'
       lookclose:
         range: '5.0'
         disablewhilenavigating: true
@@ -354,7 +354,7 @@ npc:
         '0':
           type_key: amethyst_shard
           amount: 1
-    traitnames: type,mounttrait,spawned,trader,skintrait,scoreboardtrait,inventory,equipment,lookclose,rotationtrait,location
+    traitnames: type,mounttrait,lookclose,inventory,spawned,scoreboardtrait,trader,skintrait,rotationtrait,location,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false
@@ -428,7 +428,7 @@ npc:
           '0': 0.0
           '1': 360.0
       type: PLAYER
-    traitnames: type,mounttrait,spawned,trader,skintrait,scoreboardtrait,inventory,equipment,lookclose,rotationtrait,location
+    traitnames: type,mounttrait,lookclose,inventory,scoreboardtrait,spawned,trader,skintrait,rotationtrait,location,equipment
     navigator:
       speedmodifier: '1.0'
       avoidwater: false

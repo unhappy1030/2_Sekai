@@ -16,8 +16,8 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1686659789347
-  login: 1686652217999
+  logout: 1686830716142
+  login: 1686827529806
 money: '57.0'
 last-account-name: Dwnn0525
 lastlocation:
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 5f49d87f-f443-4d4a-94bf-89e5b6936ab8
   world-name: world
-  x: 279.83237252504114
-  y: 67.0
-  z: 62.437364914684395
-  yaw: -98.603515625
-  pitch: -0.041095755994319916
+  x: 940.6135356699918
+  y: -30.0
+  z: 48.30000001192093
+  yaw: -179.20245361328125
+  pitch: 16.290746688842773

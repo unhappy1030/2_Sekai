@@ -16,9 +16,9 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1686663472750
-  login: 1686656428150
-money: '584.0'
+  logout: 1686837130808
+  login: 1686827616017
+money: '1094.5'
 last-account-name: Two_Letter
 lastlocation:
   world: 5f49d87f-f443-4d4a-94bf-89e5b6936ab8
@@ -29,10 +29,10 @@ lastlocation:
   yaw: 27.954370498657227
   pitch: 1.4478836059570312
 logoutlocation:
-  world: 5f49d87f-f443-4d4a-94bf-89e5b6936ab8
-  world-name: world
-  x: 107.08712119129316
-  y: 62.0
-  z: -0.30000001192092896
-  yaw: -1.6204833984375
-  pitch: 22.566434860229492
+  world: 99d6a5dc-9eec-4041-aa24-b4857b611b79
+  world-name: world_nether
+  x: -144.62384963129455
+  y: 48.0
+  z: 370.8216918767732
+  yaw: -164.1962890625
+  pitch: 9.102088928222656
