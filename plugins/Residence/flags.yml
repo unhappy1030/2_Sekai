@@ -19,7 +19,7 @@ Global:
     # Applies to: Both
     anchor: true
     # Applies to: Both
-    animalkilling: false
+    animalkilling: true
     # Applies to: Residence
     animals: true
     # Applies to: Both
@@ -71,7 +71,7 @@ Global:
     # Applies to: Residence
     decay: true
     # Applies to: Both
-    destroy: false
+    destroy: true
     # Applies to: Both
     diode: true
     # Applies to: Both
@@ -199,7 +199,7 @@ Global:
     # Applies to: Residence
     sanimals: true
     # Applies to: Both
-    shear: false
+    shear: true
     # Applies to: Residence
     shoot: true
     # Applies to: Residence

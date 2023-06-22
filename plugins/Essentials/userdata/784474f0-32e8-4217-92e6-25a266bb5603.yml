@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 25.10.74.69
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1687274007862
+  login: 1687273572006
+money: '899.5'
+last-account-name: Hambak37
+lastlocation:
+  world: 5f49d87f-f443-4d4a-94bf-89e5b6936ab8
+  world-name: world
+  x: 85.20340223686256
+  y: 68.41999998688698
+  z: -12.615210575067676
+  yaw: -97.06584167480469
+  pitch: 0.6729499101638794
+logoutlocation:
+  world: 5f49d87f-f443-4d4a-94bf-89e5b6936ab8
+  world-name: world
+  x: 185.81768768889611
+  y: 74.0
+  z: 32.32837567855013
+  yaw: 177.39990234375
+  pitch: 3.068492889404297

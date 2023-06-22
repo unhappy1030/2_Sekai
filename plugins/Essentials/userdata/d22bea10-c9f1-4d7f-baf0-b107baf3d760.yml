@@ -1,0 +1,38 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 25.34.113.132
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1687261860761
+  login: 1687259655315
+money: '5904.0000000000000050'
+last-account-name: Hexagonwater
+lastlocation:
+  world: 5f49d87f-f443-4d4a-94bf-89e5b6936ab8
+  world-name: world
+  x: 192.18259453283164
+  y: 72.0
+  z: 48.23894815062782
+  yaw: 32.758148193359375
+  pitch: 15.149809837341309
+logoutlocation:
+  world: 5f49d87f-f443-4d4a-94bf-89e5b6936ab8
+  world-name: world
+  x: 246.15916721046517
+  y: 63.0
+  z: 48.51415702653741
+  yaw: -23.393829345703125
+  pitch: 25.64984703063965

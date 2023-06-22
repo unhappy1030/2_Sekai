@@ -61,6 +61,7 @@ hoshino:
             v: 3337
             type: ENDER_CHEST
           show-lore: true
+          display-lore: []
           show-description: true
           description: []
           Discount:

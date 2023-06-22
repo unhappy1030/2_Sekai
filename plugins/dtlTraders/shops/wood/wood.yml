@@ -1,0 +1,367 @@
+wood:
+  title: wood
+  command: none
+  permission: none
+  default-shop: buy
+  buy-shop-enabled: true
+  sell-shop-enabled: false
+  trade-shop-enabled: false
+  logging-enabled: false
+  close-after-purchase: false
+  pages:
+    page-0:
+      size: 54
+      page-name: Page 54842
+      page-permission: ''
+      buy-items:
+        item-0:
+          id: 187
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: OAK_LOG
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 16/06/2023 19:14:40
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 16/06/2023 19:14:40
+          show-price: true
+          trade-price: 2.5
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-1:
+          id: 188
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: SPRUCE_LOG
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 16/06/2023 19:14:51
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 16/06/2023 19:14:51
+          show-price: true
+          trade-price: 2.5
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-2:
+          id: 189
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: BIRCH_LOG
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 16/06/2023 19:15:18
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 16/06/2023 19:15:18
+          show-price: true
+          trade-price: 2.5
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-3:
+          id: 190
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: JUNGLE_LOG
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 16/06/2023 19:15:31
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 16/06/2023 19:15:31
+          show-price: true
+          trade-price: 2.5
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-4:
+          id: 191
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: ACACIA_LOG
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 16/06/2023 19:15:42
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 16/06/2023 19:15:42
+          show-price: true
+          trade-price: 2.5
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-5:
+          id: 192
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: DARK_OAK_LOG
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 16/06/2023 19:15:53
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 16/06/2023 19:15:53
+          show-price: true
+          trade-price: 2.5
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-6:
+          id: 193
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: MANGROVE_LOG
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 16/06/2023 19:16:04
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 16/06/2023 19:16:04
+          show-price: true
+          trade-price: 2.5
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-7:
+          id: 194
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: CRIMSON_STEM
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 16/06/2023 19:16:18
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 16/06/2023 19:16:18
+          show-price: true
+          trade-price: 4.0
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-8:
+          id: 195
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: WARPED_STEM
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 16/06/2023 19:16:32
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 16/06/2023 19:16:32
+          show-price: true
+          trade-price: 4.0
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false

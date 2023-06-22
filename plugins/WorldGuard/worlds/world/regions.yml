@@ -64,7 +64,8 @@ regions:
         max: {x: 201, y: 92, z: 37}
         members: {}
         flags: {build: deny, use: deny, interact: deny, tnt: deny}
-        owners: {}
+        owners:
+            unique-ids: [13b316a2-cb44-4e24-8800-211a6a10ed22]
         type: cuboid
         priority: 0
     st_2_1:
@@ -79,8 +80,10 @@ regions:
         min: {x: 168, y: 62, z: 19}
         max: {x: 208, y: 108, z: 53}
         members: {}
-        flags: {other-explosion: deny, creeper-explosion: deny, lava-fire: deny, build: deny,
-            use: allow, interact: allow, tnt: deny, pvp: deny, firework-damage: deny}
+        flags: {other-explosion: deny, lava-fire: deny, use: allow, interact: allow,
+            vehicle-destroy: allow, use-dripleaf: allow, pvp: deny, ride: allow, firework-damage: deny,
+            item-drop: allow, creeper-explosion: deny, vehicle-place: allow, build: deny,
+            item-pickup: allow, item-frame-rotation: allow, tnt: deny, use-anvil: allow}
         owners: {}
         type: cuboid
         priority: 0

@@ -1,0 +1,137 @@
+anya:
+  title: Anya
+  command: none
+  permission: none
+  default-shop: buy
+  buy-shop-enabled: true
+  sell-shop-enabled: false
+  trade-shop-enabled: false
+  logging-enabled: false
+  close-after-purchase: false
+  pages:
+    page-0:
+      size: 54
+      page-name: Page 42774
+      page-permission: ''
+      buy-items:
+        item-0:
+          id: 169
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: LANTERN
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 16/06/2023 18:28:38
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 16/06/2023 18:28:38
+          show-price: true
+          trade-price: 100.0
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-1:
+          id: 170
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: SOUL_LANTERN
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 16/06/2023 18:28:50
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 16/06/2023 18:28:50
+          show-price: true
+          trade-price: 100.0
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-2:
+          id: 173
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: TOTEM_OF_UNDYING
+            meta:
+              ==: ItemMeta
+              meta-type: UNSPECIFIC
+              display-name: '{"text":"아냐의 인형"}'
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 16/06/2023 18:30:14
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 16/06/2023 18:30:14
+          show-price: true
+          trade-price: 1500.0
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false

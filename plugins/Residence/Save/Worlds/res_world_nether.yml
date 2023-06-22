@@ -1,3 +1,53 @@
 Version: 1
 Seed: -7260227192006198116
-Residences: {}
+Messages:
+  1:
+    LeaveMessage: Now leaving %residence.
+    EnterMessage: Welcome %player to %residence, owned by %owner.
+Flags:
+  1:
+    container: true
+    ignite: true
+    move: true
+    harvest: true
+    shear: true
+    use: true
+    destroy: true
+    animalkilling: true
+    trade: true
+    mobkilling: true
+    build: true
+    vehicledestroy: true
+    leash: true
+  2:
+    container: false
+    ignite: false
+    harvest: false
+    shear: false
+    firespread: false
+    use: false
+    destroy: false
+    pvp: false
+    animalkilling: false
+    hook: false
+    build: false
+    explode: false
+    vehicledestroy: false
+    tnt: false
+    leash: false
+    pistonprotection: true
+    tp: false
+    creeper: false
+Residences:
+  hell:
+    TPLoc: 301.5:73.0:585.5:0.0:0.0
+    BlockSellPrice: 45.0
+    Permissions:
+      PlayerFlags:
+        f95ed63e-e861-46df-abef-527c91f45a78: 1
+      AreaFlags: 2
+      OwnerUUID: f95ed63e-e861-46df-abef-527c91f45a78
+      OwnerLastKnownName: Two_Letter
+    CreatedOn: 1686991784940
+    Areas:
+      main: 300:73:584:302:75:586

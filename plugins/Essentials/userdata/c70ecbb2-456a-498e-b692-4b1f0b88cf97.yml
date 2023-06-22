@@ -16,9 +16,9 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1686839745441
-  login: 1686827749249
-money: '5774.500000000000001'
+  logout: 1687259018030
+  login: 1687256579138
+money: '19570.0000000000000031'
 last-account-name: wndhks123
 lastlocation:
   world: 5f49d87f-f443-4d4a-94bf-89e5b6936ab8
@@ -31,8 +31,8 @@ lastlocation:
 logoutlocation:
   world: 5f49d87f-f443-4d4a-94bf-89e5b6936ab8
   world-name: world
-  x: 239.69999998807907
-  y: 66.0
-  z: 86.69999998807907
-  yaw: 125.67039489746094
-  pitch: 16.929325103759766
+  x: 233.0735498094251
+  y: 70.5625
+  z: 83.25142971453369
+  yaw: 160.568603515625
+  pitch: 56.643043518066406

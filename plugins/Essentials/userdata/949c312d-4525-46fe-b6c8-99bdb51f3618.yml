@@ -16,23 +16,23 @@ timestamps:
   mute: 0
   jail: 0
   onlinejail: 0
-  logout: 1686403023883
-  login: 1686402578279
-money: '0'
+  logout: 1687079207225
+  login: 1687079167315
+money: '1224.0'
 last-account-name: vickake
 lastlocation:
   world: 5f49d87f-f443-4d4a-94bf-89e5b6936ab8
   world-name: world
-  x: 190.60743298309927
-  y: 91.5
-  z: 47.48770449665955
-  yaw: 175.1466064453125
-  pitch: 42.89997863769531
+  x: 14.5
+  y: 63.0
+  z: -42.5
+  yaw: -90.43310546875
+  pitch: 11.699054718017578
 logoutlocation:
   world: 5f49d87f-f443-4d4a-94bf-89e5b6936ab8
   world-name: world
-  x: 53.96313675673937
-  y: 63.0
-  z: -62.3691386880899
-  yaw: -81.041748046875
-  pitch: 6.30000114440918
+  x: 260.7429170782613
+  y: 62.9375
+  z: 234.94910570986764
+  yaw: -141.74615478515625
+  pitch: 65.550048828125

@@ -1,331 +1,254 @@
-[19:55:05] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[19:55:11] [ServerMain/INFO]: Loaded 7 recipes
-[19:55:19] [Server thread/INFO]: Starting minecraft server version 1.19.4
-[19:55:19] [Server thread/INFO]: Loading properties
-[19:55:20] [Server thread/INFO]: This server is running CraftBukkit version 3760-Spigot-7d7b241-1f2dd8e (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT)
-[19:55:20] [Server thread/INFO]: Debug logging is disabled
-[19:55:20] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:55:20] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:55:20] [Server thread/INFO]: Default game type: SURVIVAL
-[19:55:20] [Server thread/INFO]: Generating keypair
-[19:55:21] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:55:21] [Server thread/INFO]: Using default channel type
-[19:55:25] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
-[19:55:25] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
-[19:55:25] [Server thread/INFO]: [CMILib] Loading CMILib v1.2.5.5
-[19:55:25] [Server thread/INFO]: [voicechat] Loading voicechat v2.4.8
-[19:55:25] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.14+6360-094b734
-[19:55:28] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@6c600070]
-[19:55:28] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.0
-[19:55:28] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.8-beta-01+cbb2ba7
-[19:55:28] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.31-SNAPSHOT (build 3100)
-[19:55:28] [Server thread/INFO]: [SimpleScore] Loading SimpleScore v3.12.2
-[19:55:28] [Server thread/INFO]: [Residence] Loading Residence v5.1.1.3
-[19:55:28] [Server thread/INFO]: [dtlTraders] Loading dtlTraders v6.4.18
-[19:55:28] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
-[19:55:28] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.20.0 which is not a depend or softdepend of this plugin.
-[19:55:28] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
-[19:55:28] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
-[19:55:28] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
-[19:55:28] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.14+6360-094b734
-[19:55:28] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
-[19:55:29] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
-[19:55:29] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
-[19:55:34] [Server thread/INFO]: [WorldEdit] ====================================================
-[19:55:34] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
-[19:55:34] [Server thread/INFO]: [WorldEdit]  as your server software. 
-[19:55:34] [Server thread/INFO]: [WorldEdit]   
-[19:55:34] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
-[19:55:34] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
-[19:55:34] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
-[19:55:34] [Server thread/INFO]: [WorldEdit]   
-[19:55:34] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
-[19:55:34] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
-[19:55:34] [Server thread/INFO]: [WorldEdit]   
-[19:55:34] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
-[19:55:34] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
-[19:55:34] [Server thread/INFO]: [WorldEdit]   
-[19:55:34] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
-[19:55:34] [Server thread/INFO]: [WorldEdit] ====================================================
-[19:55:34] [Server thread/INFO]: Preparing level "world"
-[19:55:34] [Server thread/INFO]: -------- World Settings For [world] --------
-[19:55:34] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:55:34] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:55:34] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[19:55:34] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:55:34] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:55:34] [Server thread/INFO]: View Distance: 10
-[19:55:34] [Server thread/INFO]: Simulation Distance: 10
-[19:55:34] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[19:55:34] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[19:55:34] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[19:55:34] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[19:55:34] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:55:34] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: Potato Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: Vine Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[19:55:34] [Server thread/INFO]: Max TNT Explosions: 100
-[19:55:34] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:55:34] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:55:34] [Server thread/INFO]: Mob Spawn Range: 6
-[19:55:38] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[19:55:38] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:55:38] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:55:38] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[19:55:38] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:55:38] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:55:38] [Server thread/INFO]: View Distance: 10
-[19:55:38] [Server thread/INFO]: Simulation Distance: 10
-[19:55:38] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[19:55:38] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[19:55:38] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[19:55:38] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[19:55:38] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:55:38] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: Potato Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: Vine Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[19:55:38] [Server thread/INFO]: Max TNT Explosions: 100
-[19:55:38] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:55:38] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:55:38] [Server thread/INFO]: Mob Spawn Range: 6
-[19:55:47] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[19:55:47] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:55:47] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:55:47] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[19:55:47] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:55:47] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:55:47] [Server thread/INFO]: View Distance: 10
-[19:55:47] [Server thread/INFO]: Simulation Distance: 10
-[19:55:47] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[19:55:47] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[19:55:47] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
-[19:55:47] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[19:55:47] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:55:47] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: Potato Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: Vine Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[19:55:47] [Server thread/INFO]: Max TNT Explosions: 100
-[19:55:47] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:55:47] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:55:47] [Server thread/INFO]: Mob Spawn Range: 6
-[19:55:47] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[19:56:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:56:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:56:00] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:02] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:03] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:04] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:05] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:05] [Worker-Main-2/INFO]: Preparing spawn area: 4%
-[19:56:06] [Worker-Main-2/INFO]: Preparing spawn area: 7%
-[19:56:06] [Worker-Main-3/INFO]: Preparing spawn area: 19%
-[19:56:08] [Worker-Main-2/INFO]: Preparing spawn area: 39%
-[19:56:08] [Worker-Main-2/INFO]: Preparing spawn area: 39%
-[19:56:08] [Server thread/INFO]: Time elapsed: 20508 ms
-[19:56:08] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[19:56:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:18] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:18] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:19] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:19] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:20] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:20] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:56:21] [Worker-Main-2/INFO]: Preparing spawn area: 1%
-[19:56:21] [Worker-Main-1/INFO]: Preparing spawn area: 17%
-[19:56:22] [Worker-Main-1/INFO]: Preparing spawn area: 42%
-[19:56:22] [Worker-Main-2/INFO]: Preparing spawn area: 77%
-[19:56:23] [Worker-Main-2/INFO]: Preparing spawn area: 89%
-[19:56:23] [Server thread/INFO]: Time elapsed: 14839 ms
-[19:56:23] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[19:56:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:33] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[19:56:34] [Worker-Main-3/INFO]: Preparing spawn area: 32%
-[19:56:34] [Worker-Main-2/INFO]: Preparing spawn area: 72%
-[19:56:35] [Server thread/INFO]: Time elapsed: 11448 ms
-[19:56:35] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
-[19:56:36] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
-[19:56:36] [Server thread/INFO]: [CMILib] Enabling CMILib v1.2.5.5
-[19:56:39] [Server thread/INFO]: [0;36;22mServer version: v1_19_R3 - 1.19.4 - spigot[m
-[19:56:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cmil [1.2.5.5]
-[19:56:40] [Server thread/INFO]: PlaceholderAPI hooked.[m
-[19:56:41] [Server thread/INFO]: Updated (EN) language file. Took [0;33;22m360ms[m
-[19:56:41] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.8
-[19:56:41] [Server thread/INFO]: Initializing compatibility for Bukkit version 1.19.4-R0.1
-[19:56:41] [Server thread/INFO]: Compatibility version 17
-[19:56:41] [Server thread/WARN]: Commodore command completion is not supported
-[19:56:41] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: voicechat [2.4.8]
-[19:56:41] [Server thread/INFO]: Successfully registered PlaceholderAPI expansion
-[19:56:41] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0
-[19:56:41] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
-[19:56:43] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
-[19:56:43] [Server thread/INFO]: No kits found to migrate.
-[19:56:43] [Server thread/INFO]: Loaded 38132 items from items.json.
-[19:56:43] [Server thread/INFO]: Using locale ko_KR
-[19:56:43] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
-[19:56:43] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
-[19:56:43] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
-[19:56:43] [Server thread/INFO]: Using superperms-based permissions.
-[19:56:43] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.8-beta-01+cbb2ba7
-[19:56:44] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
-[19:56:44] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
-[19:56:44] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
-[19:56:44] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
-[19:56:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
-[19:56:44] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
-[19:56:44] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
-[19:56:44] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
-[19:56:44] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
-[19:56:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
-[19:56:44] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
-[19:56:44] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
-[19:56:44] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
-[19:56:44] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
-[19:56:44] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
-[19:56:44] [Server thread/INFO]: [WorldGuard] Loading region data...
-[19:56:45] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.31-SNAPSHOT (build 3100)
-[19:56:45] [Server thread/INFO]: [Citizens] Loading external libraries
-[19:56:51] [Server thread/INFO]: [Citizens] No translation for system language (ko_KR): defaulting to English
-[19:56:52] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
-[19:56:52] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
-[19:56:52] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.2
-[19:56:53] [Server thread/INFO]: [SimpleScore] It looks like your server doesn't have ProtocolLib, install ProtocolLib for even better performance and compatibility with other plugins.
-[19:56:53] [Server thread/INFO]: [SimpleScore] https://www.spigotmc.org/resources/protocollib.1997/
-[19:56:53] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: SimpleScore [3.12.2]
-[19:56:53] [Server thread/INFO]: [Residence] Enabling Residence v5.1.1.3
-[19:56:57] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loaded (2) groups[m
-[19:56:57] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Found Vault, but Vault reported no usable permissions system...[m
-[19:56:57] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Permissions plugin NOT FOUND![m
-[19:56:57] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Scanning for economy systems...[m
-[19:56:57] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Found Vault using economy: [0;35;22mEssentialsX Economy[m
-[19:56:58] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loaded world data into memory. (176 ms) -> 5 residences[m
-[19:56:58] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loaded world_the_end data into memory. (0 ms) -> 0 residences[m
-[19:56:58] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loaded world_nether data into memory. (0 ms) -> 0 residences[m
-[19:56:58] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Found WorldEdit 7.2.14+6360-094b734[m
-[19:56:58] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Found WorldGuard 7.0.8-beta-01+cbb2ba7[m
-[19:56:58] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: residence [5.1.1.3]
-[19:56:58] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m PlaceholderAPI was found - Enabling capabilities.[m
-[19:56:58] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Enabled! Version 5.1.1.3 by Zrips[m
-[19:56:59] [Server thread/INFO]: [dtlTraders] Enabling dtlTraders v6.4.18
-[19:56:59] [Server thread/INFO]: [0;36;1mdtlTraders> [0;36;22mWelcome to dtlTraders v6.4.18![m
-[19:56:59] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
-[19:57:11] [Server thread/INFO]: [0;36;1mdtlTraders> [0;36;22mTrying to hook into any Vault supported plugin...[m
-[19:57:11] [Server thread/INFO]: [0;36;1mdtlTraders> [0;36;22mVault found! Trying to hook...[m
-[19:57:11] [Server thread/INFO]: [0;36;1mdtlTraders> [0;36;1mFound economy plugin: [0;36;22mEssentialsX Economy[m
-[19:57:11] [Server thread/ERROR]: Cannot load plugins\dtlTraders\shops\main\main.yml
+[21:35:53] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[21:35:54] [ServerMain/INFO]: Loaded 7 recipes
+[21:35:55] [Server thread/INFO]: Starting minecraft server version 1.19.4
+[21:35:55] [Server thread/INFO]: Loading properties
+[21:35:55] [Server thread/INFO]: This server is running CraftBukkit version 3760-Spigot-7d7b241-1f2dd8e (MC: 1.19.4) (Implementing API version 1.19.4-R0.1-SNAPSHOT)
+[21:35:55] [Server thread/INFO]: Debug logging is disabled
+[21:35:55] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[21:35:55] [Server thread/INFO]: Using 4 threads for Netty based IO
+[21:35:55] [Server thread/INFO]: Default game type: SURVIVAL
+[21:35:55] [Server thread/INFO]: Generating keypair
+[21:35:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[21:35:56] [Server thread/INFO]: Using default channel type
+[21:35:56] [Server thread/INFO]: [Vault] Loading Vault v1.7.3-b131
+[21:35:56] [Server thread/INFO]: [PlaceholderAPI] Loading PlaceholderAPI v2.11.3
+[21:35:56] [Server thread/INFO]: [CMILib] Loading CMILib v1.2.5.5
+[21:35:56] [Server thread/INFO]: [voicechat] Loading voicechat v2.4.8
+[21:35:56] [Server thread/INFO]: [WorldEdit] Loading WorldEdit v7.2.14+6360-094b734
+[21:35:57] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@522cbf7a]
+[21:35:57] [Server thread/INFO]: [Essentials] Loading Essentials v2.20.0
+[21:35:57] [Server thread/INFO]: [WorldGuard] Loading WorldGuard v7.0.8-beta-01+cbb2ba7
+[21:35:57] [Server thread/INFO]: [Citizens] Loading Citizens v2.0.31-SNAPSHOT (build 3100)
+[21:35:57] [Server thread/INFO]: [SimpleScore] Loading SimpleScore v3.12.2
+[21:35:57] [Server thread/INFO]: [Residence] Loading Residence v5.1.1.3
+[21:35:57] [Server thread/INFO]: [dtlTraders] Loading dtlTraders v6.4.18
+[21:35:57] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[21:35:57] [Server thread/WARN]: [Vault] Loaded class com.earth2me.essentials.api.Economy from Essentials v2.20.0 which is not a depend or softdepend of this plugin.
+[21:35:57] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[21:35:57] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[21:35:57] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[21:35:57] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.14+6360-094b734
+[21:35:57] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[21:35:57] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[21:35:57] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_19_R3.PaperweightAdapter as the Bukkit adapter
+[21:35:58] [Server thread/INFO]: [WorldEdit] ====================================================
+[21:35:58] [Server thread/INFO]: [WorldEdit]  WorldEdit works better if you use Paper 
+[21:35:58] [Server thread/INFO]: [WorldEdit]  as your server software. 
+[21:35:58] [Server thread/INFO]: [WorldEdit]   
+[21:35:58] [Server thread/INFO]: [WorldEdit]  Paper offers significant performance improvements,
+[21:35:58] [Server thread/INFO]: [WorldEdit]  bug fixes, security enhancements and optional
+[21:35:58] [Server thread/INFO]: [WorldEdit]  features for server owners to enhance their server.
+[21:35:58] [Server thread/INFO]: [WorldEdit]   
+[21:35:58] [Server thread/INFO]: [WorldEdit]  Paper includes Timings v2, which is significantly
+[21:35:58] [Server thread/INFO]: [WorldEdit]  better at diagnosing lag problems over v1.
+[21:35:58] [Server thread/INFO]: [WorldEdit]   
+[21:35:58] [Server thread/INFO]: [WorldEdit]  All of your plugins should still work, and the
+[21:35:58] [Server thread/INFO]: [WorldEdit]  Paper community will gladly help you fix any issues.
+[21:35:58] [Server thread/INFO]: [WorldEdit]   
+[21:35:58] [Server thread/INFO]: [WorldEdit]  Join the Paper Community @ https://papermc.io
+[21:35:58] [Server thread/INFO]: [WorldEdit] ====================================================
+[21:35:58] [Server thread/INFO]: Preparing level "world"
+[21:35:58] [Server thread/INFO]: -------- World Settings For [world] --------
+[21:35:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:35:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:35:58] [Server thread/INFO]: Simulation Distance: 10
+[21:35:58] [Server thread/INFO]: View Distance: 10
+[21:35:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:35:58] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:35:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:35:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:35:58] [Server thread/INFO]: Max TNT Explosions: 100
+[21:35:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:35:58] [Server thread/INFO]: Mob Spawn Range: 6
+[21:35:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:35:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:35:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:35:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[21:35:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[21:35:58] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[21:35:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:35:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:35:58] [Server thread/INFO]: Simulation Distance: 10
+[21:35:58] [Server thread/INFO]: View Distance: 10
+[21:35:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:35:58] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:35:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:35:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:35:58] [Server thread/INFO]: Max TNT Explosions: 100
+[21:35:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:35:58] [Server thread/INFO]: Mob Spawn Range: 6
+[21:35:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:35:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:35:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:35:58] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[21:35:58] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[21:35:58] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[21:35:58] [Server thread/INFO]: Item Merge Radius: 2.5
+[21:35:58] [Server thread/INFO]: Item Despawn Rate: 6000
+[21:35:58] [Server thread/INFO]: Simulation Distance: 10
+[21:35:58] [Server thread/INFO]: View Distance: 10
+[21:35:58] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[21:35:58] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[21:35:58] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[21:35:58] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[21:35:58] [Server thread/INFO]: Max TNT Explosions: 100
+[21:35:58] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[21:35:58] [Server thread/INFO]: Mob Spawn Range: 6
+[21:35:58] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[21:35:58] [Server thread/INFO]: Experience Merge Radius: 3.0
+[21:35:58] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Cane Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Melon Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Potato Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Vine Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[21:35:58] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[21:35:59] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[21:35:59] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[21:35:59] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[21:35:59] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[21:35:59] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[21:35:59] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Di 128 / Other 64
+[21:35:59] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[21:36:00] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[21:36:00] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[21:36:00] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[21:36:00] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[21:36:01] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:36:01] [Worker-Main-10/INFO]: Preparing spawn area: 58%
+[21:36:01] [Server thread/INFO]: Time elapsed: 2721 ms
+[21:36:01] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[21:36:02] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[21:36:02] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[21:36:02] [Worker-Main-9/INFO]: Preparing spawn area: 0%
+[21:36:03] [Worker-Main-11/INFO]: Preparing spawn area: 0%
+[21:36:03] [Worker-Main-10/INFO]: Preparing spawn area: 0%
+[21:36:04] [Worker-Main-9/INFO]: Preparing spawn area: 98%
+[21:36:04] [Server thread/INFO]: Time elapsed: 2504 ms
+[21:36:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[21:36:05] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:36:05] [Worker-Main-8/INFO]: Preparing spawn area: 0%
+[21:36:05] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[21:36:05] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[21:36:06] [Worker-Main-3/INFO]: Preparing spawn area: 69%
+[21:36:06] [Server thread/INFO]: Time elapsed: 2089 ms
+[21:36:06] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.3
+[21:36:06] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[21:36:06] [Server thread/INFO]: [CMILib] Enabling CMILib v1.2.5.5
+[21:36:07] [Server thread/INFO]: [0;36;22mServer version: v1_19_R3 - 1.19.4 - spigot[m
+[21:36:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: cmil [1.2.5.5]
+[21:36:07] [Server thread/INFO]: PlaceholderAPI hooked.[m
+[21:36:07] [Server thread/INFO]: Updated (EN) language file. Took [0;33;22m35ms[m
+[21:36:07] [Server thread/INFO]: [voicechat] Enabling voicechat v2.4.8
+[21:36:07] [Server thread/INFO]: Initializing compatibility for Bukkit version 1.19.4-R0.1
+[21:36:07] [Server thread/INFO]: Compatibility version 17
+[21:36:07] [Server thread/WARN]: Commodore command completion is not supported
+[21:36:07] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: voicechat [2.4.8]
+[21:36:07] [Server thread/INFO]: Successfully registered PlaceholderAPI expansion
+[21:36:07] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0
+[21:36:07] [Server thread/INFO]: You are running a server with limited API functionality. EssentialsX will still work, but certain features may be disabled.
+[21:36:07] [Server thread/INFO]: Attempting to convert old kits in config.yml to new kits.yml
+[21:36:07] [Server thread/INFO]: No kits found to migrate.
+[21:36:07] [Server thread/INFO]: Loaded 38132 items from items.json.
+[21:36:07] [Server thread/INFO]: Using locale ko_KR
+[21:36:07] [Server thread/INFO]: ServerListPingEvent: Spigot iterator API
+[21:36:07] [Server thread/INFO]: Starting Metrics. Opt-out using the global bStats config.
+[21:36:07] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[21:36:07] [Server thread/INFO]: Using superperms-based permissions.
+[21:36:07] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.8-beta-01+cbb2ba7
+[21:36:07] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[21:36:07] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[21:36:07] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[21:36:07] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[21:36:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[21:36:07] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[21:36:07] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[21:36:07] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[21:36:07] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[21:36:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[21:36:07] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[21:36:07] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[21:36:07] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[21:36:07] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[21:36:07] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[21:36:07] [Server thread/INFO]: [WorldGuard] Loading region data...
+[21:36:07] [Server thread/INFO]: [Citizens] Enabling Citizens v2.0.31-SNAPSHOT (build 3100)
+[21:36:07] [Server thread/INFO]: [Citizens] Loading external libraries
+[21:36:08] [Server thread/INFO]: [Citizens] No translation for system language (ko_KR): defaulting to English
+[21:36:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: citizensplaceholder [1.0.0]
+[21:36:08] [Server thread/INFO]: [Citizens] Loaded economy handling via Vault.
+[21:36:08] [Server thread/INFO]: [SimpleScore] Enabling SimpleScore v3.12.2
+[21:36:08] [Server thread/INFO]: [SimpleScore] It looks like your server doesn't have ProtocolLib, install ProtocolLib for even better performance and compatibility with other plugins.
+[21:36:08] [Server thread/INFO]: [SimpleScore] https://www.spigotmc.org/resources/protocollib.1997/
+[21:36:08] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: SimpleScore [3.12.2]
+[21:36:08] [Server thread/INFO]: [Residence] Enabling Residence v5.1.1.3
+[21:36:08] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loaded (2) groups[m
+[21:36:08] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Found Vault, but Vault reported no usable permissions system...[m
+[21:36:08] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Permissions plugin NOT FOUND![m
+[21:36:08] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Scanning for economy systems...[m
+[21:36:08] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Found Vault using economy: [0;35;22mEssentialsX Economy[m
+[21:36:08] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loaded world data into memory. (20 ms) -> 8 residences[m
+[21:36:08] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loaded world_the_end data into memory. (1 ms) -> 0 residences[m
+[21:36:08] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Loaded world_nether data into memory. (0 ms) -> 1 residences[m
+[21:36:08] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Found WorldEdit 7.2.14+6360-094b734[m
+[21:36:08] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Found WorldGuard 7.0.8-beta-01+cbb2ba7[m
+[21:36:09] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: residence [5.1.1.3]
+[21:36:09] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m PlaceholderAPI was found - Enabling capabilities.[m
+[21:36:09] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Enabled! Version 5.1.1.3 by Zrips[m
+[21:36:09] [Server thread/INFO]: [dtlTraders] Enabling dtlTraders v6.4.18
+[21:36:09] [Server thread/INFO]: [0;36;1mdtlTraders> [0;36;22mWelcome to dtlTraders v6.4.18![m
+[21:36:09] [Server thread/WARN]: Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[21:36:10] [Server thread/INFO]: [0;36;1mdtlTraders> [0;36;22mTrying to hook into any Vault supported plugin...[m
+[21:36:10] [Server thread/INFO]: [0;36;1mdtlTraders> [0;36;22mVault found! Trying to hook...[m
+[21:36:10] [Server thread/INFO]: [0;36;1mdtlTraders> [0;36;1mFound economy plugin: [0;36;22mEssentialsX Economy[m
+[21:36:10] [Server thread/ERROR]: Cannot load plugins\dtlTraders\shops\main\main.yml
 org.bukkit.configuration.InvalidConfigurationException: unacceptable code point ' ' (0x0) special characters are not allowed
 in "'reader'", position 0
 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:110) ~[spigot-api-1.19.4-R0.1-SNAPSHOT.jar:?]
@@ -347,7 +270,7 @@ in "'reader'", position 0
 	at net.minecraft.server.dedicated.DedicatedServer.e(DedicatedServer.java:250) ~[spigot-1.19.4-R0.1-SNAPSHOT.jar:3760-Spigot-7d7b241-1f2dd8e]
 	at net.minecraft.server.MinecraftServer.w(MinecraftServer.java:975) ~[spigot-1.19.4-R0.1-SNAPSHOT.jar:3760-Spigot-7d7b241-1f2dd8e]
 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:304) ~[spigot-1.19.4-R0.1-SNAPSHOT.jar:3760-Spigot-7d7b241-1f2dd8e]
-	at java.lang.Thread.run(Thread.java:833) ~[?:?]
+	at java.lang.Thread.run(Thread.java:1623) ~[?:?]
 Caused by: org.yaml.snakeyaml.reader.ReaderException: special characters are not allowed
 	at org.yaml.snakeyaml.reader.StreamReader.update(StreamReader.java:204) ~[snakeyaml-1.33.jar:?]
 	at org.yaml.snakeyaml.reader.StreamReader.ensureEnoughData(StreamReader.java:169) ~[snakeyaml-1.33.jar:?]
@@ -363,178 +286,58 @@ Caused by: org.yaml.snakeyaml.reader.ReaderException: special characters are not
 	at org.yaml.snakeyaml.Yaml.compose(Yaml.java:559) ~[snakeyaml-1.33.jar:?]
 	at org.bukkit.configuration.file.YamlConfiguration.loadFromString(YamlConfiguration.java:103) ~[spigot-api-1.19.4-R0.1-SNAPSHOT.jar:?]
 	... 19 more
-[19:57:11] [Server thread/INFO]: [0;36;1mdtlTraders> [0;32;1mLoaded 7 guis from the guis config![m
-[19:57:11] [Server thread/INFO]: [0;36;1mdtlTraders> [0;32;1mHooking into Citizens![m
-[19:57:11] [Server thread/INFO]: [0;36;1mdtlTraders> [0;32;1mHooking into PlaceholderAPI[m
-[19:57:11] [Server thread/INFO]: [0;36;1mdtlTraders> [0;31;1mdtlTraders is managed by Degitise. [0;36;1mwww.degitise.com[m
-[19:57:11] [Server thread/INFO]: [0;36;1mdtlTraders> [0;31;1mUnlock premium features with [0;33;22mdtlTradersPlus![m
-[19:57:11] [Server thread/INFO]: [0;36;1mdtlTraders> [0;31;1mBuy your copy at: [0;36;1mhttps://www.spigotmc.org/resources/dtltradersplus.63690/[m
-[19:57:12] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:57:12] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
-[19:57:12] [Server thread/INFO]: Done (97.884s)! For help, type "help"
-[19:57:12] [Server thread/INFO]: Loading plugins
-[19:57:12] [Server thread/INFO]: Loaded 0 plugin(s)
-[19:57:12] [Server thread/INFO]: Initializing plugins
-[19:57:12] [Server thread/INFO]: Initialized 0 plugin(s)
-[19:57:12] [Server thread/INFO]: Using default voicechat socket implementation
-[19:57:12] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
-[19:57:12] [Craft Scheduler Thread - 2/INFO]: ¡×6¹öÀü Á¤º¸¸¦ °¡Á®¿À´ÂÁß...
-[19:57:12] [VoiceChatServerThread/INFO]: Server started at port 25565
-[19:57:13] [Server thread/INFO]: [Citizens] Loaded 7 NPCs.
-[19:57:13] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
-[19:57:13] [Craft Scheduler Thread - 1/INFO]: [0;32;22mNew version of CMILib was detected. Please update it[m
-[19:57:13] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
-[19:57:13] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.8.1]
-[19:57:13] [Server thread/INFO]: [0;32;1m1 placeholder hook(s) registered![m
-[19:57:13] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
-[20:07:02] [User Authenticator #1/INFO]: UUID of player Ri_MU_L is 13b316a2-cb44-4e24-8800-211a6a10ed22
-[20:07:03] [Server thread/INFO]: Ri_MU_L joined the game
-[20:07:03] [Server thread/INFO]: Ri_MU_L[/25.9.183.0:58116] logged in with entity id 322 at ([world]182.29819516941666, 63.5, 68.528964430256)
-[20:07:04] [Server thread/INFO]: Received secret request of Ri_MU_L (17)
-[20:07:04] [Server thread/INFO]: Sent secret to Ri_MU_L
-[20:07:07] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 13b316a2-cb44-4e24-8800-211a6a10ed22
-[20:07:08] [VoiceChatPacketProcessingThread/INFO]: Successfully validated connection of player 13b316a2-cb44-4e24-8800-211a6a10ed22
-[20:07:08] [VoiceChatPacketProcessingThread/INFO]: Player Ri_MU_L (13b316a2-cb44-4e24-8800-211a6a10ed22) successfully connected to voice chat
-[20:07:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5011ms or 100 ticks behind
-[20:07:38] [VoiceChatPacketProcessingThread/INFO]: Player 13b316a2-cb44-4e24-8800-211a6a10ed22 timed out
-[20:07:38] [VoiceChatPacketProcessingThread/INFO]: Reconnecting player Ri_MU_L
-[20:07:38] [VoiceChatPacketProcessingThread/INFO]: Sent secret to Ri_MU_L
-[20:07:39] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 13b316a2-cb44-4e24-8800-211a6a10ed22
-[20:07:40] [VoiceChatPacketProcessingThread/INFO]: Successfully validated connection of player 13b316a2-cb44-4e24-8800-211a6a10ed22
-[20:07:40] [VoiceChatPacketProcessingThread/INFO]: Player Ri_MU_L (13b316a2-cb44-4e24-8800-211a6a10ed22) successfully connected to voice chat
-[20:12:09] [User Authenticator #2/INFO]: UUID of player Dwnn0525 is 2d5a2430-46d1-456e-8147-802d08bb1f9d
-[20:12:09] [Server thread/INFO]: Dwnn0525 joined the game
-[20:12:09] [Server thread/INFO]: Dwnn0525[/25.37.158.214:49157] logged in with entity id 1107 at ([world]279.83237252504114, 67.0, 62.437364914684395)
-[20:12:11] [Server thread/INFO]: Received secret request of Dwnn0525 (17)
-[20:12:11] [Server thread/INFO]: Sent secret to Dwnn0525
-[20:12:13] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 2d5a2430-46d1-456e-8147-802d08bb1f9d
-[20:12:15] [VoiceChatPacketProcessingThread/INFO]: Successfully validated connection of player 2d5a2430-46d1-456e-8147-802d08bb1f9d
-[20:12:15] [VoiceChatPacketProcessingThread/INFO]: Player Dwnn0525 (2d5a2430-46d1-456e-8147-802d08bb1f9d) successfully connected to voice chat
-[20:12:19] [Async Chat Thread - #2/INFO]: <Dwnn0525> gkdl[m
-[20:12:21] [Async Chat Thread - #1/INFO]: <Dwnn0525> ÇÏÀÌ[m
-[20:13:35] [User Authenticator #3/INFO]: UUID of player Two_Letter is f95ed63e-e861-46df-abef-527c91f45a78
-[20:13:35] [Server thread/INFO]: Two_Letter joined the game
-[20:13:35] [Server thread/INFO]: Two_Letter[/25.19.35.72:49580] logged in with entity id 1332 at ([world]122.13681400197028, 76.0, 42.62092137071821)
-[20:13:38] [Server thread/INFO]: Received secret request of Two_Letter (17)
-[20:13:38] [Server thread/INFO]: Sent secret to Two_Letter
-[20:13:39] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player f95ed63e-e861-46df-abef-527c91f45a78
-[20:13:40] [VoiceChatPacketProcessingThread/INFO]: Successfully validated connection of player f95ed63e-e861-46df-abef-527c91f45a78
-[20:13:40] [VoiceChatPacketProcessingThread/INFO]: Player Two_Letter (f95ed63e-e861-46df-abef-527c91f45a78) successfully connected to voice chat
-[20:14:49] [Server thread/INFO]: Dwnn0525 has made the advancement [Sweet Dreams]
-[20:15:48] [User Authenticator #4/INFO]: UUID of player wndhks123 is c70ecbb2-456a-498e-b692-4b1f0b88cf97
-[20:15:49] [Server thread/INFO]: wndhks123 joined the game
-[20:15:49] [Server thread/INFO]: wndhks123[/25.49.77.137:62725] logged in with entity id 1960 at ([world]242.3452426129506, 73.0, 93.71219077869199)
-[20:15:50] [Server thread/INFO]: Received secret request of wndhks123 (17)
-[20:15:50] [Server thread/INFO]: Sent secret to wndhks123
-[20:15:53] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player c70ecbb2-456a-498e-b692-4b1f0b88cf97
-[20:15:54] [VoiceChatPacketProcessingThread/INFO]: Successfully validated connection of player c70ecbb2-456a-498e-b692-4b1f0b88cf97
-[20:15:54] [VoiceChatPacketProcessingThread/INFO]: Player wndhks123 (c70ecbb2-456a-498e-b692-4b1f0b88cf97) successfully connected to voice chat
-[20:18:04] [Server thread/INFO]: Ri_MU_L issued server command: /res list
-[20:18:16] [Server thread/INFO]: Made Ri_MU_L a server operator
-[20:18:19] [Server thread/INFO]: Ri_MU_L issued server command: /gm 1
-[20:18:31] [Server thread/INFO]: Ri_MU_L issued server command: /res remove test
-[20:18:57] [Server thread/INFO]: Ri_MU_L issued server command: /gm 0
-[20:19:37] [Server thread/INFO]: Ri_MU_L issued server command: /gm 1
-[20:19:53] [Server thread/INFO]: Dwnn0525 issued server command: /res list
-[20:19:55] [Server thread/INFO]: Dwnn0525 issued server command: /res tp house
-[20:20:27] [Server thread/INFO]: Ri_MU_L issued server command: /dtl trait
-[20:21:17] [Server thread/INFO]: Ri_MU_L issued server command: /gm 0
-[20:21:21] [Server thread/INFO]: Ri_MU_L issued server command: /deop Ri_MU_L
-[20:21:21] [Server thread/INFO]: [Ri_MU_L: Made Ri_MU_L no longer a server operator]
-[20:30:27] [Server thread/INFO]: Ri_MU_L has made the advancement [Cover Me with Diamonds]
-[20:39:02] [Server thread/INFO]: Created a User for Kana (4038617d-8a33-2b3e-b5d0-1a6ffb6b6759) for non Bukkit type: net.citizensnpcs.nms.v1_19_R3.entity.EntityHumanNPC$PlayerNPC
-[20:41:57] [Server thread/INFO]: Two_Letter issued server command: /res list
-[20:41:59] [Server thread/INFO]: Two_Letter issued server command: /res tp home
-[20:49:30] [Server thread/INFO]: Two_Letter issued server command: /res tp home
-[20:51:14] [Server thread/INFO]: Villager EntityVillager['Villager'/13316, l='ServerLevel[world]', x=201.38, y=63.00, z=359.91] died, message: 'Villager was slain by Zombie'
-[20:54:14] [Server thread/WARN]: Boat (vehicle of Ri_MU_L) moved wrongly! 0.9568148137316123
-[20:54:14] [Server thread/WARN]: Boat (vehicle of Ri_MU_L) moved wrongly! 0.9926329470594812
-[20:54:14] [Server thread/WARN]: Boat (vehicle of Ri_MU_L) moved wrongly! 1.0248801625806
-[20:54:14] [Server thread/WARN]: Boat (vehicle of Ri_MU_L) moved wrongly! 1.0539106686901871
-[20:54:14] [Server thread/WARN]: Boat (vehicle of Ri_MU_L) moved wrongly! 1.0800440886509166
-[20:59:30] [Server thread/INFO]: Two_Letter issued server command: /res tp cow
-[20:59:33] [Server thread/INFO]: Two_Letter issued server command: /res tp cow
-[20:59:59] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5043ms or 100 ticks behind
-[21:00:04] [Server thread/INFO]: Two_Letter issued server command: /res tp home
-[21:00:39] [Server thread/INFO]: Ri_MU_L drowned
-[21:01:49] [Server thread/INFO]: Two_Letter issued server command: /res tp cow
-[21:03:38] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 5006ms or 100 ticks behind
-[21:04:06] [Server thread/INFO]: Two_Letter issued server command: /res tp home
-[21:04:14] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 6189ms or 123 ticks behind
-[21:05:16] [Server thread/INFO]: Dwnn0525 lost connection: Disconnected
-[21:05:16] [Server thread/INFO]: Disconnecting client Dwnn0525
-[21:05:16] [Server thread/INFO]: Dwnn0525 left the game
-[21:07:19] [Server thread/INFO]: Two_Letter issued server command: /res tp home
-[21:08:44] [Server thread/INFO]: Ri_MU_L issued server command: /res tp my_home
-[21:08:56] [Server thread/INFO]: Ri_MU_L issued server command: /res remove test
-[21:08:59] [Server thread/INFO]: Ri_MU_L issued server command: /res confirm
-[21:16:04] [Server thread/INFO]: Ri_MU_L was slain by Zombie
-[21:22:50] [Server thread/INFO]: Two_Letter issued server command: /res list
-[21:22:53] [Server thread/INFO]: Two_Letter issued server command: /res tp home
-[21:23:59] [Server thread/INFO]: Ri_MU_L issued server command: /res tp my_home
-[21:34:54] [Server thread/INFO]: Two_Letter issued server command: /res list
-[21:34:58] [Server thread/INFO]: Two_Letter issued server command: /res tp cow
-[21:36:06] [Server thread/INFO]: Two_Letter issued server command: /res tp home
-[21:40:15] [Server thread/INFO]: Two_Letter issued server command: /res tp home
-[21:42:41] [Server thread/INFO]: Two_Letter issued server command: /res tp home
-[21:44:18] [Server thread/INFO]: Two_Letter issued server command: /res tp home
-[21:47:13] [Server thread/INFO]: Two_Letter issued server command: /res tp home
-[22:10:54] [Server thread/WARN]: wndhks123 moved too quickly! 1.532110022585826,-0.028868041641239017,-16.79394946275256
-[22:26:30] [Server thread/INFO]: Two_Letter issued server command: /res list
-[22:28:32] [Server thread/INFO]: Two_Letter issued server command: /res tp cow
-[22:28:34] [Server thread/INFO]: Two_Letter issued server command: /res tp home
-[22:28:41] [Server thread/INFO]: Two_Letter issued server command: /res tp cow
-[22:29:10] [Server thread/INFO]: Two_Letter issued server command: /res tp home
-[22:38:42] [Server thread/INFO]: Two_Letter issued server command: /res tp home
-[22:39:38] [Server thread/INFO]: Two_Letter has made the advancement [We Need to Go Deeper]
-[22:52:10] [Server thread/INFO]: Two_Letter lost connection: Disconnected
-[22:52:10] [Server thread/INFO]: Disconnecting client Two_Letter
-[22:52:10] [Server thread/INFO]: Two_Letter left the game
-[23:20:13] [Server thread/INFO]: wndhks123 has made the advancement [Enchanter]
-[23:33:02] [Async Chat Thread - #5/INFO]: <wndhks123> ³ªµµ °¨[m
-[23:33:04] [Async Chat Thread - #5/INFO]: <wndhks123> ¤³¤³[m
-[23:33:40] [Server thread/INFO]: Ri_MU_L lost connection: Disconnected
-[23:33:40] [Server thread/INFO]: Disconnecting client Ri_MU_L
-[23:33:40] [Server thread/INFO]: Ri_MU_L left the game
-[23:33:50] [User Authenticator #5/INFO]: UUID of player Ri_MU_L is 13b316a2-cb44-4e24-8800-211a6a10ed22
-[23:33:50] [Server thread/INFO]: Ri_MU_L joined the game
-[23:33:50] [Server thread/INFO]: Ri_MU_L[/25.9.183.0:58748] logged in with entity id 70839 at ([world]237.30000001192093, 67.0, 83.71480216794693)
-[23:33:51] [Server thread/INFO]: Received secret request of Ri_MU_L (17)
-[23:33:51] [Server thread/INFO]: Sent secret to Ri_MU_L
-[23:33:52] [VoiceChatPacketProcessingThread/INFO]: Successfully authenticated player 13b316a2-cb44-4e24-8800-211a6a10ed22
-[23:33:53] [VoiceChatPacketProcessingThread/INFO]: Successfully validated connection of player 13b316a2-cb44-4e24-8800-211a6a10ed22
-[23:33:53] [VoiceChatPacketProcessingThread/INFO]: Player Ri_MU_L (13b316a2-cb44-4e24-8800-211a6a10ed22) successfully connected to voice chat
-[23:35:45] [Server thread/INFO]: wndhks123 lost connection: Disconnected
-[23:35:45] [Server thread/INFO]: Disconnecting client wndhks123
-[23:35:45] [Server thread/INFO]: wndhks123 left the game
-[23:35:48] [Server thread/INFO]: Ri_MU_L lost connection: Disconnected
-[23:35:48] [Server thread/INFO]: Disconnecting client Ri_MU_L
-[23:35:48] [Server thread/INFO]: Ri_MU_L left the game
-[23:36:38] [Server thread/INFO]: Stopping the server
-[23:36:38] [Server thread/INFO]: Stopping server
-[23:36:38] [Server thread/INFO]: [dtlTraders] Disabling dtlTraders v6.4.18
-[23:36:38] [Server thread/INFO]: [0;36;1mdtlTraders> [0;33;22mSaving shops before shutting down...[m
-[23:36:38] [Server thread/INFO]: [0;36;1mdtlTraders> [0;32;1mShops Saved![m
-[23:36:38] [Server thread/INFO]: [Residence] Disabling Residence v5.1.1.3
-[23:36:39] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Disabled![m
-[23:36:39] [Server thread/INFO]: [SimpleScore] Disabling SimpleScore v3.12.2
-[23:36:39] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.31-SNAPSHOT (build 3100)
-[23:36:39] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.8-beta-01+cbb2ba7
-[23:36:39] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
-[23:36:39] [Server thread/INFO]: Disabling Essentials v2.20.0
-[23:36:39] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
-[23:36:39] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.14+6360-094b734
-[23:36:39] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
-[23:36:39] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.8
-[23:36:39] [Server thread/INFO]: [CMILib] Disabling CMILib v1.2.5.5
-[23:36:39] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
-[23:36:39] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
-[23:36:39] [Server thread/INFO]: Saving players
-[23:36:39] [Server thread/INFO]: Saving worlds
-[23:36:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[23:36:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[23:36:44] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[23:36:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[23:36:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[23:36:44] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[23:36:44] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:36:10] [Server thread/INFO]: [0;36;1mdtlTraders> [0;32;1mLoaded 10 guis from the guis config![m
+[21:36:10] [Server thread/INFO]: [0;36;1mdtlTraders> [0;32;1mHooking into Citizens![m
+[21:36:10] [Server thread/INFO]: [0;36;1mdtlTraders> [0;32;1mHooking into PlaceholderAPI[m
+[21:36:10] [Server thread/INFO]: [0;36;1mdtlTraders> [0;31;1mdtlTraders is managed by Degitise. [0;36;1mwww.degitise.com[m
+[21:36:10] [Server thread/INFO]: [0;36;1mdtlTraders> [0;31;1mUnlock premium features with [0;33;22mdtlTradersPlus![m
+[21:36:10] [Server thread/INFO]: [0;36;1mdtlTraders> [0;31;1mBuy your copy at: [0;36;1mhttps://www.spigotmc.org/resources/dtltradersplus.63690/[m
+[21:36:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[21:36:10] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[21:36:10] [Server thread/INFO]: Done (12.368s)! For help, type "help"
+[21:36:10] [Server thread/INFO]: Loading plugins
+[21:36:10] [Server thread/INFO]: Loaded 0 plugin(s)
+[21:36:10] [Server thread/INFO]: Initializing plugins
+[21:36:10] [Server thread/INFO]: Initialized 0 plugin(s)
+[21:36:10] [Server thread/INFO]: Using default voicechat socket implementation
+[21:36:10] [Server thread/INFO]: Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[21:36:10] [Craft Scheduler Thread - 2/INFO]: Â§6ë²„ì „ ì •ë³´ë¥¼ ê°€ì ¸ì˜¤ëŠ”ì¤‘...
+[21:36:10] [VoiceChatServerThread/INFO]: Server started at port 25565
+[21:36:10] [Server thread/INFO]: [Citizens] Loaded 10 NPCs.
+[21:36:10] [Craft Scheduler Thread - 4/INFO]: [Vault] Checking for Updates ... 
+[21:36:10] [Server thread/WARN]: [PlaceholderAPI] Loaded class net.milkbowl.vault.economy.Economy from Vault v1.7.3-b131 which is not a depend or softdepend of this plugin.
+[21:36:10] [Server thread/INFO]: [PlaceholderAPI] Successfully registered expansion: vault [1.8.1]
+[21:36:10] [Server thread/INFO]: [0;32;1m1 placeholder hook(s) registered![m
+[21:36:10] [Craft Scheduler Thread - 4/INFO]: [Vault] No new version available
+[21:36:10] [Craft Scheduler Thread - 1/INFO]: [0;32;22mNew version of CMILib was detected. Please update it[m
+[21:36:12] [Craft Scheduler Thread - 5/INFO]: _________________/ Residence \_________________
+[21:36:12] [Craft Scheduler Thread - 5/INFO]: | 5.1.2.0 is now available! Your version: 5.1.1.3
+[21:36:12] [Craft Scheduler Thread - 5/INFO]: ----------------------------------------[m
+[22:01:17] [Server thread/INFO]: Stopping the server
+[22:01:17] [Server thread/INFO]: Stopping server
+[22:01:17] [Server thread/INFO]: [dtlTraders] Disabling dtlTraders v6.4.18
+[22:01:17] [Server thread/INFO]: [0;36;1mdtlTraders> [0;33;22mSaving shops before shutting down...[m
+[22:01:17] [Server thread/INFO]: [0;36;1mdtlTraders> [0;32;1mShops Saved![m
+[22:01:17] [Server thread/INFO]: [Residence] Disabling Residence v5.1.1.3
+[22:01:17] [Server thread/INFO]: [0;32;1m[[0;33;22mResidence[0;32;1m][0;37;22m Disabled![m
+[22:01:17] [Server thread/INFO]: [SimpleScore] Disabling SimpleScore v3.12.2
+[22:01:17] [Server thread/INFO]: [Citizens] Disabling Citizens v2.0.31-SNAPSHOT (build 3100)
+[22:01:17] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.8-beta-01+cbb2ba7
+[22:01:17] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[22:01:17] [Server thread/INFO]: Disabling Essentials v2.20.0
+[22:01:17] [Server thread/INFO]: [Vault] [Economy] Essentials Economy unhooked.
+[22:01:17] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.2.14+6360-094b734
+[22:01:17] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[22:01:17] [Server thread/INFO]: [voicechat] Disabling voicechat v2.4.8
+[22:01:17] [Server thread/INFO]: [CMILib] Disabling CMILib v1.2.5.5
+[22:01:17] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.3
+[22:01:17] [Server thread/INFO]: [Vault] Disabling Vault v1.7.3-b131
+[22:01:17] [Server thread/INFO]: Saving players
+[22:01:17] [Server thread/INFO]: Saving worlds
+[22:01:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:01:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:01:18] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:01:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:01:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:01:18] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:01:18] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

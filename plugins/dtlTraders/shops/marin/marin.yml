@@ -54,6 +54,45 @@ marin:
           logging-enabled: false
           close-after-purchase: false
         item-1:
+          id: 197
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: GOLD_INGOT
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 18/06/2023 17:45:46
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 18/06/2023 17:45:46
+          show-price: true
+          trade-price: 7.5
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-2:
           id: 21
           type: tradable
           item:
@@ -77,6 +116,45 @@ marin:
             discount-end: 09/06/2023 16:20:36
           show-price: true
           trade-price: 30.0
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-8:
+          id: 161
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: TORCH
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 16/06/2023 18:22:16
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 16/06/2023 18:22:16
+          show-price: true
+          trade-price: 4.5
           custom-input-enabled: true
           stack-sale-enabled: false
           show-trade-limit: false
@@ -233,6 +311,84 @@ marin:
             discount-end: 09/06/2023 16:57:22
           show-price: true
           trade-price: 7.5
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-16:
+          id: 176
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: COOKED_BEEF
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 16/06/2023 18:38:05
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 16/06/2023 18:38:05
+          show-price: true
+          trade-price: 7.0
+          custom-input-enabled: true
+          stack-sale-enabled: false
+          show-trade-limit: false
+          trade-limit: -1
+          show-limit-time: false
+          limit-reset-seconds: -1
+          show-broadcast-message: false
+          broadcast-message: ''
+          drop-item-on-full-inventory: false
+          sell-all-when-not-enough-items: false
+          custom-display-text-enabled: false
+          custom-display-text: []
+          permission: ''
+          logging-enabled: false
+          close-after-purchase: false
+        item-17:
+          id: 177
+          type: tradable
+          item:
+            ==: org.bukkit.inventory.ItemStack
+            v: 3337
+            type: BREAD
+          show-lore: true
+          display-lore: []
+          show-description: true
+          description: []
+          Discount:
+            discount-enabled: false
+            discount-percentage: 0.0
+            show-discount-price: false
+            discount-price: 0.0
+            show-discount-start: false
+            discount-start: 16/06/2023 18:38:19
+            show-discount-duration: false
+            discount-duration: 0
+            show-discount-end: false
+            discount-end: 16/06/2023 18:38:19
+          show-price: true
+          trade-price: 5.0
           custom-input-enabled: true
           stack-sale-enabled: false
           show-trade-limit: false
